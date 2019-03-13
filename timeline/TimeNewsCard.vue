@@ -46,6 +46,9 @@
         border-radius: 10/3.75+vw;
         background: #fff;
         box-shadow: 0 0 30/3.75+vw 5/3.75+vw #e2e2e2;
+        & + .wk-time-news-card {
+            margin-top: 10/3.75+vw;
+        }
         .news-card_main {
             display: flex;
             align-items: flex-start;
@@ -96,7 +99,7 @@
              width: 25/3.75+vw;
              height: 25/3.75+vw;
              background: #f2f2f2;
-             left: -45/3.75+vw;
+             left: -38/3.75+vw;
              top: 50%;
              transform: translateY(-50%);
             &:after {
@@ -116,9 +119,9 @@
             top: 50%;
             transform: translateY(-50%);
             border-left: 8/3.75+vw solid transparent;
-            border-top: 8/3.75+vw solid transparent;
+            border-top: 12/3.75+vw solid transparent;
             border-right: 16/3.75+vw solid #fff;
-            border-bottom: 8/3.75+vw solid transparent;
+            border-bottom: 12/3.75+vw solid transparent;
             z-index: 2;
         }
     }

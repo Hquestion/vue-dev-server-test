@@ -4,6 +4,10 @@
 
         </div>
         <TimeNewsCard></TimeNewsCard>
+        <TimeNewsCard></TimeNewsCard>
+        <TimeNewsCard></TimeNewsCard>
+        <TimeNewsCard></TimeNewsCard>
+
     </div>
 </template>
 
@@ -17,7 +21,7 @@
 
 <style lang="scss" scoped>
     .time-line-panel {
-        padding-left: 40/3.75+vw;
+        padding-left: 30/3.75+vw;
         min-height: 80/3.75+vw;
         position: relative;
         .left {
@@ -25,7 +29,7 @@
             width: 2/3.75+vw;
             background: #dedede;
             position: absolute;
-            left: 15/2/3.75+vw;
+            left: 5/2/3.75+vw;
             top: 0;
         }
     }
